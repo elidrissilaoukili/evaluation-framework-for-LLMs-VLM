@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-09-29 10:10:37",
+  "python": "3.13.12",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "cuda": "12.8",
+  "torch": "2.11.0+cu128",
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.17.0",
+    "datasets": "3.6.0",
+    "accelerate": "1.15.0",
+    "sacrebleu": "2.6.0",
+    "rouge-score": "0.1.2",
+    "nltk": "3.10.3",
+    "bert-score": "0.3.13",
+    "pycocoevalcap": "1.2",
+    "scipy": "1.18.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pillow": "12.3.0"
+  },
+  "seed": 42,
+  "config": {
+    "n_images": 200,
+    "k_samples": 4,
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "max_new_tokens": 30,
+    "gen_batch": 8,
+    "clip_judge": "openai/clip-vit-large-patch14",
+    "clip_second": "openai/clip-vit-base-patch32",
+    "alpha": 0.4,
+    "beta": 0.6,
+    "qwen_prompt": "Write a one-sentence caption for this image.",
+    "qwen_max_pixels": 200704,
+    "archs": {
+      "BLIP-base": "Salesforce/blip-image-captioning-base",
+      "BLIP-large": "Salesforce/blip-image-captioning-large",
+      "ViT-GPT2": "nlpconnect/vit-gpt2-image-captioning",
+      "GIT-base": "microsoft/git-base-coco",
+      "Qwen2-VL-2B": "Qwen/Qwen2-VL-2B-Instruct"
+    }
+  },
+  "flickr_source": "lmms-lab/flickr30k",
+  "failed": {},
+  "commits": {
+    "BLIP-base": "82a37760796d32b1411fe092ab5d4e227313294b",
+    "BLIP-large": "353689b859fcf0523410b1806dace5fb46ecdf41",
+    "ViT-GPT2": "dc68f91c06a1ba6f15268e5b9c13ae7a7c514084",
+    "GIT-base": "a13141da42abd4a8cbf283601a8104265f537cee",
+    "Qwen2-VL-2B": "895c3a49bc3fa70a340399125c650a463535e71c"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-09-29 00:14:01",
+  "python": "3.13.12",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "cuda": "12.8",
+  "torch": "2.11.0+cu128",
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.17.0",
+    "datasets": "3.6.0",
+    "accelerate": "1.15.0",
+    "sacrebleu": "2.6.0",
+    "rouge-score": "0.1.2",
+    "nltk": "3.10.3",
+    "bert-score": "0.3.13",
+    "pycocoevalcap": "1.2",
+    "scipy": "1.18.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pillow": "12.3.0"
+  },
+  "seed": 42,
+  "config": {
+    "llms": {
+      "Qwen2.5-1.5B-Instruct": "Qwen/Qwen2.5-1.5B-Instruct",
+      "SmolLM2-135M-Instruct": "HuggingFaceTB/SmolLM2-135M-Instruct",
+      "SmolLM2-360M-Instruct": "HuggingFaceTB/SmolLM2-360M-Instruct",
+      "Qwen2.5-0.5B-Instruct": "Qwen/Qwen2.5-0.5B-Instruct"
+    },
+    "n_gsm8k": 100,
+    "n_arc": 200,
+    "n_cnn": 50,
+    "k_samples": 4,
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "gsm8k_max_new": 320,
+    "sum_max_new": 160,
+    "max_article_tokens": 700,
+    "gen_batch_gsm": 16,
+    "gen_batch_sum": 8,
+    "arc_batch": 16,
+    "reward_model": "OpenAssistant/reward-model-deberta-v3-base",
+    "alpha": 0.4,
+    "beta": 0.6,
+    "resume": true
+  },
+  "models": {
+    "Qwen2.5-1.5B-Instruct": {
+      "id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "commit": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+    },
+    "SmolLM2-135M-Instruct": {
+      "id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+      "commit": "12fd25f77366fa6b3b4b768ec3050bf629380bac"
+    },
+    "SmolLM2-360M-Instruct": {
+      "id": "HuggingFaceTB/SmolLM2-360M-Instruct",
+      "commit": "a10cc1512eabd3dde888204e902eca88bddb4951"
+    },
+    "Qwen2.5-0.5B-Instruct": {
+      "id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "commit": "7ae557604adf67be50417f59c2c2f167def9a775"
+    }
+  }
+}

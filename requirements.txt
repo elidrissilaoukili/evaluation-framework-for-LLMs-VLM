@@ -1,0 +1,19 @@
+# Install PyTorch FIRST (RTX 50-series / Blackwell needs CUDA 12.8+ wheels):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+transformers>=4.46
+datasets>=2.20
+accelerate
+sentencepiece
+pillow
+numpy
+pandas
+scipy
+matplotlib
+tqdm
+nltk
+sacrebleu
+rouge-score
+bert-score
+pycocoevalcap
+jupyter
+ipykernel

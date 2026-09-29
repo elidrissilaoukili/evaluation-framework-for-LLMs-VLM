@@ -1,0 +1,5 @@
+comparison,mean_diff,ci95,P_leq_0,significant
+Qwen2-VL-2B - GIT-base,0.0877,"[0.0709, 0.1050]",0.0,True
+Qwen2-VL-2B - BLIP-large,0.0927,"[0.0779, 0.1071]",0.0,True
+Qwen2-VL-2B - BLIP-base,0.1361,"[0.1175, 0.1554]",0.0,True
+Qwen2-VL-2B - ViT-GPT2,0.1778,"[0.1579, 0.1968]",0.0,True
