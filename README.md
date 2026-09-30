@@ -45,7 +45,7 @@ Everything is reproducible: fixed seed, saved run manifest (library versions, mo
 | SmolLM2-360M           | 0.12      | 0.18      | 2.48           | 0.225           | 0.469           |
 | SmolLM2-135M           | 0.03      | 0.28      | 1.02           | 0.216           | 0.356           |
 
-![LLM before vs after](./LLM/outputs_llm/before_after_scores.png)
+![LLM before vs after](./1.LLM/outputs_llm/before_after_scores.png)
 
 **What we found**
 
@@ -67,7 +67,7 @@ Everything is reproducible: fixed seed, saved run manifest (library versions, mo
 | VQA accuracy     | 0.847 (any of 4 sampled answers correct: 0.882) |
 | Captioning       | CIDEr 0.513, METEOR 0.369                       |
 
-![VLM best-of-k change](./VLM/outputs_vlm/best_of_k_change.png)
+![VLM best-of-k change](./2.VLM/outputs_vlm/best_of_k_change.png)
 
 **What we found**
 
@@ -90,7 +90,7 @@ Everything is reproducible: fixed seed, saved run manifest (library versions, mo
 | BLIP-base             | 0.437           | 0.423          | 0.026           |
 | ViT-GPT2              | 0.396           | 0.399          | 0.051           |
 
-![Comparative before vs after](./VLM-LLM/outputs_comparative/before_after_comparative.png)
+![Comparative before vs after](./3.LLM-VLM/outputs_comparative/before_after_comparative.png)
 
 **What we found**
 
